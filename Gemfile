@@ -5,6 +5,12 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.3'
 #encrypting user pw
 gem 'bcrypt', '~> 3.1.10'
+#faking users to see the app
+gem 'faker', '~> 1.4.3'
+#pagination
+gem 'will_paginate', '~> 3.0.7'
+#pagination style
+gem 'bootstrap-will_paginate', '~> 0.0.10'
 #bootstrap and sass
 gem 'bootstrap-sass', '~> 3.3.5.1'
 # Use SCSS for stylesheets
