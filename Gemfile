@@ -7,6 +7,10 @@ gem 'rails', '4.2.3'
 gem 'bcrypt', '~> 3.1.10'
 #faking users to see the app
 gem 'faker', '~> 1.4.3'
+#image uploading
+gem 'carrierwave', '~> 0.10.0'
+gem 'mini_magick', '~> 4.2.9'
+gem 'fog', '~> 1.32.0'
 #pagination
 gem 'will_paginate', '~> 3.0.7'
 #pagination style
